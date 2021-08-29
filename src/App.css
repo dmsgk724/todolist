@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+.checkDay
+{
+    display:flex;
+   justify-content:center;
+    flex-direction:row;
+    align-items:center;
+    background-color:#22b8cf;
+    font-size:20px;
+    color:white;
+    padding-top:2px;
+    padding-bottom:2px;
+    flex-grow:1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+    padding: 2rem;
+    font-size:2.5rem;
+    text-align:center;
+    font-weight:100;
+    background: #22b8cf;
+    color:white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.MON
+{
+    text-align:center;
+    border-left:4px solid white;
+    border-right: 2px solid white;
+    cursor:pointer;
+    padding-left:50px;
+    padding-right:50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.MON:hover
+{background:#3bc9db;}
+
+.TUE
+{
+    text-align:center;
+    border-left:2px solid white;
+    border-right: 2px solid white;
+    cursor:pointer;
+    padding-left:50px;
+    padding-right:50px;
 }
 
-.App-link {
-  color: #61dafb;
+.TUE:hover
+{background:#3bc9db;}
+
+.WED
+{
+    text-align:center;
+    border-left:2px solid white;
+    border-right: 2px solid white;
+    cursor:pointer;
+    padding-left:50px;
+    padding-right:50px;
+}
+.WED:hover
+{background:#3bc9db;}
+.THU
+{text-align:center;
+    border-left:2px solid white;
+    border-right: 2px solid white;
+    cursor:pointer;
+    padding-left:50px;
+    padding-right:50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.THU:hover
+{background:#3bc9db;}
+.FRI
+{text-align:center;
+    border-left:2px solid white;
+    border-right: 2px solid white;
+    cursor:pointer;
+    padding-left:50px;
+    padding-right:50px;}
+    .FRI:hover
+    {background:#3bc9db;}
+.SAT
+{text-align:center;
+    border-left:2px solid white;
+    border-right: 2px solid white;
+    cursor:pointer;
+    padding-left:50px;
+    padding-right:50px;}
+
+    .SAT:hover
+{background:#3bc9db;}
+
+.SUN
+{text-align:center;
+    border-left:2px solid white;
+    border-right: 4px solid white;
+    cursor:pointer;
+    padding-left:50px;
+    padding-right:50px;}
+
+    .SUN:hover
+{background:#3bc9db;}
+
+.dpDay{
+    text-align:center;
+    border-bottom:2px solid gray;
+    font-size:20px;
+    padding-bottom:5px;
+    padding-top:5px;
+}
+
+.s1
+{
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+
 }
