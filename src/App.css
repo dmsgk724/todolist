@@ -102,8 +102,9 @@
 
 .dpDay{
     text-align:center;
-    border-bottom:2px solid gray;
+    border-bottom:1px solid #3bc9db;
     font-size:20px;
+    color:#3bc9db;
     padding-bottom:5px;
     padding-top:5px;
 }
@@ -115,3 +116,5 @@
     flex-direction:row;
 
 }
+
+

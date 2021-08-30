@@ -1,12 +1,15 @@
 .form 
-{display:flex;}
+{display:flex;
+    flex-direction:row;}
 
 .form input{
     flex:1;
     font-size:1.25rem;
+    text-align:center;
     outline: none;
     border: none;
-    border-bottom: 1px solid #c5f6fa
+    border-bottom: 1px solid #c5f6fa;
+    color:gray;
 
 }
 

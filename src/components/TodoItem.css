@@ -36,6 +36,7 @@
 {
     flex:1;
     word-break:break-all;
+    color:gray;
 }
 
 .checked
@@ -52,4 +53,26 @@
     color:#3bc9db;
     font-weight: 800;
 
+}
+
+#text{
+    display:flex;
+    justify-content:center;
+}
+.mainText
+{ 
+    font-size:20px;
+padding-right:100px;
+    border-right:2px solid #3bc9db;
+    color:gray
+
+    
+}
+
+.edText
+{
+    padding-left:100px;
+    font-size:20px;
+    color:gray;
+    
 }

@@ -1,0 +1,32 @@
+.table
+{
+    display:flex;
+    justify-content:center;
+    padding-left:200px;
+    padding-right:200px;
+    color:gray;
+
+    
+}
+
+.table>
+{
+    padding-left :10px;
+    padding-right:10px;
+}
+
+
+.exist
+
+{
+    padding-left :10px;
+    padding-right:10px;
+    background-color : #3bc9db;
+color:white}
+
+.notexist
+{
+    padding-left :10px;
+    padding-right:10px;
+}
+

@@ -2,8 +2,8 @@
 .todo-list-template
 {
     background:white;
-    width:512px;
-    box-shadow:0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.16);
+    width:1200px;
+    box-shadow:0 0 2px rgba(0,0,0,0.16),0 0px 0px rgba(0,0,0,0.16);
     
     margin-top:4rem;
 }
@@ -19,11 +19,3 @@
     min-height:5rem;
 }
 
-.schedule
-{
-    text-align: center;
-    font-size:20px;
-    color:cornflowerblue;
-    border-bottom : 1px solid cornflowerblue;
-
-}
